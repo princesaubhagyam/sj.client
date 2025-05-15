@@ -1,0 +1,44 @@
+.header {
+  background: white;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+  box-shadow: rgba(17, 12, 46, 0.1) 0px 48px 100px 0px;
+}
+.main-wrapper {
+  padding-top: 98px;
+}
+.mainmenu li a {
+  font-size: 20px;
+}
+
+.bg_image--8 {
+  background-image: url("/public/img/b1.png");
+}
+.maintitle {
+  color: white;
+}
+@media only screen and (max-width: 479px) {
+  .main-slider-style-7 {
+    background-position: left;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .axil-mobile-toggle .menu-btn i {
+    display: none;
+  }
+}
+
+.aboutbox {
+  background: #fff2df;
+  padding: 30px;
+  border-left: 5px solid #9a6210;
+  border-radius: 10px;
+}
+#bars-loading {
+  display: block;
+}
+.wa-chat-box-poweredby {
+  display: none;
+}
